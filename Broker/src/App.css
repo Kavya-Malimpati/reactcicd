@@ -1,0 +1,71 @@
+/* Custom Button Styles */
+/* Primary Button */
+* {
+  outline: none;
+}
+.custom-primary-button{
+  color: white;
+  background-color: #00786f;
+}
+
+.custom-primary-button:hover{
+  cursor: pointer;
+  background-color: #009a8e;
+}
+
+
+/* Tabs Styling */
+.tab-container{
+  margin-bottom: 40px;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+
+.tab.react-tabs__tab--selected{
+  position: relative;
+  font-weight: 700;
+  border-top: 4px solid #01857E;
+  border-inline: 1px solid #01857E;
+  color: #01857E;
+  background-color: white;
+}
+
+.tab.react-tabs__tab--selected::after{
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  left: 0;
+  height: 1px;
+  background: white !important;
+  display: block;
+}
+
+.tab{
+  color: #01857E;
+  font-weight: 700;
+  background-color: #DEDEDE;
+}
+.tab:hover{
+  cursor: pointer;
+}
+
+
+.tabs-and-content-parent{
+  box-shadow: var(--tw-inset-shadow), 
+  var(--tw-inset-ring-shadow), 
+  var(--tw-ring-offset-shadow), 
+  var(--tw-ring-shadow), 
+  0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.material-react-table-container{
+  border-radius: 20px;
+}
+
+/* Tabs - React Tabs */
+.tabList{
+}
+.Mui-TableHeadCell-Content-Actions {
+  display: none;
+}
